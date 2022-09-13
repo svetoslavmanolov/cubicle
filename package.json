@@ -1,0 +1,27 @@
+{
+  "name": "cubicle",
+  "version": "1.0.0",
+  "description": "Softuni JS Backend Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svetoslavmanolov/cubicle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svetoslavmanolov/cubicle/issues"
+  },
+  "homepage": "https://github.com/svetoslavmanolov/cubicle#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
