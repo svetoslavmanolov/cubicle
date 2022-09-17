@@ -8,6 +8,8 @@ const app = express();
 
 app.use('/static', express.static('public')); 
 
+app.use(express.urlencoded({extended: false}));   //dopalnitelen gotov middleware
+
 
 app.engine('hbs', handlebars.engine({
     extname: 'hbs' 

@@ -1,32 +1,39 @@
 [
     {
-        "name":"Gan356 Air SM",
+        "name": "Gan356 Air SM",
         "imageUrl": "https://ae01.alicdn.com/kf/HTB1CSddXRxRMKJjy0Fdq6yifFXa6/Gan-356-Air-SM-3x3-Black-Magic-cube-GAN-Air-SM-Magnetic-3x3x3-Speed-cube-gans.jpg",
         "difficultyLevel": 3
-
     },
     {
-        "name":"Eco-Dark",
+        "name": "Eco-Dark",
         "imageUrl": "https://thingsidesire.com/wp-content/uploads/2018/06/Eco-Dark-Rubik%E2%80%99s-Cube2.jpg",
         "difficultyLevel": 6
-
     },
     {
-        "name":"Pyraminx",
+        "name": "Pyraminx",
         "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61izOzq%2BBAL._SY355_.jpg",
         "difficultyLevel": 5
-
     },
     {
-        "name":"Megaminx",
+        "name": "Megaminx",
         "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61HpQqVQ37L._SY355_.jpg",
         "difficultyLevel": 6
-
     },
     {
-        "name":"3D Rubik",
+        "name": "3D Rubik",
         "imageUrl": "https://i.pinimg.com/originals/13/b8/75/13b87572be877ebe2fa746078ab736d6.jpg",
         "difficultyLevel": 6
-
+    },
+    {
+        "name": "Bubbe Cube",
+        "description": "Bubbe Cube",
+        "imageUrl": "https://qph.cf2.quoracdn.net/main-qimg-1576662f12fbdaaa97b8e4455178070e-lq",
+        "difficultyLevel": "4"
+    },
+    {
+        "name": "Mirror 3x3x3",
+        "description": "Mirror 3x3x3:",
+        "imageUrl": "https://qph.cf2.quoracdn.net/main-qimg-b788a324e3131e6f461c21956d347243-lq",
+        "difficultyLevel": "5"
     }
 ]
