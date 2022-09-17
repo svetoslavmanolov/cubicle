@@ -27,7 +27,8 @@ router.post('/create', async (req, res) => {
 });
 
 router.get('/details/:id', (req, res) => {
-    res.render('details')
+    const cube = cubeService.getOne(req.params.id);
+    res.render('details', { cube });  // moje i { ...cube } sas spread operator i posle v details shte bade samo name, imageUrl,...
 })
 
 module.exports = router;
