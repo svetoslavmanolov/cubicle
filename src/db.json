@@ -49,5 +49,12 @@
         "description": "7x7x7",
         "imageUrl": "https://qph.cf2.quoracdn.net/main-qimg-bfce11bc1d31ab8b2b479ca5a722cf82-pjlq",
         "difficultyLevel": "6"
+    },
+    {
+        "id": 8,
+        "name": "Megaminx",
+        "description": "Megaminx",
+        "imageUrl": "https://qph.cf2.quoracdn.net/main-qimg-573843755d4a963c3949a6772e3fcf9c-lq",
+        "difficultyLevel": "6"
     }
 ]
