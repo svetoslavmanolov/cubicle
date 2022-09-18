@@ -4,7 +4,9 @@ const path = require('path');
 const cubes = require('../db.json');
 
 //exports.getAll = () => cubes;
-exports.getAll = (search = '', from = 0, to = 6) => {  //tuk move da gi slojish i default-ni stoinosti (search = '', from = 0, to = 6). Kogato search = '' nqma nujda ot optional chaining proverka (search?.toLowerCase() || '')
+exports.getAll = (search = '', fromInput, toInput) => {  //tuk move da gi slojish i default-ni stoinosti (search = '', from = 0, to = 6). Kogato search = '' nqma nujda ot optional chaining proverka (search?.toLowerCase() || '')
+    const from = Number(fromInput) || 0;
+    const to = Number(toInput) || 6;
     const result = cubes
     .filter(x => x.name.toLowerCase().includes(search.toLowerCase()))
     .filter(x => x.difficultyLevel >= from && x.difficultyLevel <= to)
