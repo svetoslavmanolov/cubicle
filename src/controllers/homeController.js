@@ -1,8 +1,12 @@
 const router = require('express').Router();
-
-const cubes = require('../db.json');
+const cubeService = require('../services/cubeService');
+//const cubes = require('../db.json');
 
 router.get('/', (req, res) => {
+    //let querystring = req.query;
+    let { search, from, to} = req.query; //ako gi nqma shte sa undefined, no nqma problem
+    //onsole.log(search, from, to) 
+    const cubes = cubeService.getAll(search, from, to);
     res.render('index', { cubes });
 });
 
