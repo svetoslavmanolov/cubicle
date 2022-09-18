@@ -14,7 +14,8 @@ exports.getAll = (search = '', fromInput, toInput) => {  //tuk move da gi slojis
     
     return result;
 }
-exports.getOne = (cubeId) => cubes[cubeId];
+//exports.getOne = (cubeId) => cubes[cubeId];   //taka nqma da raboti, ako iskame da dobavim delete funkcionalnost
+exports.getOne = (cubeId) => cubes.find(x => x.id == cubeId);   // ne stava s === zashoto cubeId e string ili trqbva da se cast-ne kam Number(cubeId)
 
 exports.save = (cube) => {
     //cubes.push(cube);
